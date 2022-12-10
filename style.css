@@ -1,0 +1,38 @@
+/* style.css */
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: rgb(235, 205, 225);
+    text-align: center;
+    background-color: rgb(70, 0, 49);
+}
+
+h3 {
+    text-align: center;
+}
+
+.ingredients {
+    background-color: antiquewhite;
+}
+
+.recipes-list {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+}
+
+/*For Images to be side by side */
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
